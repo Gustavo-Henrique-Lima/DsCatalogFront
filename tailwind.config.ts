@@ -7,13 +7,23 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      "xsm": { "max": "320px" },
-      "sm": { "max": "576px" },
-      "md": { "max": "768px" },
-      "l": { "max": "992px" },
-      "xl": { "max": "1280px" },
-    }
+    extend: {
+      screens: {
+        "xsm": { "max": "575px" },
+        "sm": { "min": "576px", "max": "767px" },
+        "md": { "min": "768px", "max": "991px" },
+        "lg": { "min": "992px", "max": "1199px" },
+        "xl": { "min": "1200px", "max": "1399px" },
+        "xxl": { "min": "1400px" },
+      },
+      colors: {
+        "orange-base":"#F78B00",
+        "blue-base":"#00285F",
+      },
+      height: {
+        "seventy": "70px",
+      },
+    },
   },
   plugins: [],
 };
