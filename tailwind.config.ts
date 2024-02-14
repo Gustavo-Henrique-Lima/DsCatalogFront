@@ -19,8 +19,12 @@ const config: Config = {
       colors: {
         "orange-base":"#F78B00",
         "blue-base":"#00285F",
+        "custom-blue-base":"rgba(0, 40, 95, 1)",
       },
       height: {
+        "seventy": "70px",
+      },
+      margin: {
         "seventy": "70px",
       },
     },
