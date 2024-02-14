@@ -21,8 +21,24 @@ const config: Config = {
         "blue-base":"#00285F",
         "custom-blue-base":"rgba(0, 40, 95, 1)",
       },
+      width: {
+        "seventy": "70px",
+        "two-hundred-fifty-one": "251px",
+        "three-hundred": "300px",
+        "five-hundred-thirty-six": "536px", 
+        "seven-hundred-twenty-eight": "728px",
+        "nine-hundred-fifty-two": "952px",
+        "nine-hundred-seventy-nine": "979px",
+      },
+      maxWidth: {
+        "two-hundred-fifty-one": "251px",
+        "four-hundred-twenty": "350px",
+      },
       height: {
         "seventy": "70px",
+        "three-hundred-sixty-five": "365px",
+        "four-hundred-seventy-five": "475px",
+        "five-hundred-seventy-nine": "579px",
       },
       margin: {
         "seventy": "70px",
