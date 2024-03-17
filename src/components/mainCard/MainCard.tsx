@@ -5,7 +5,7 @@ function MainCard() {
     return (
         <>
             <div className="xsm:p-3 p-8 ">
-                <div className="bg-blue-base mx-auto rounded-xl flex flex-col items-center justify-center xl:flex-row-reverse xl:justify-around xxl:flex-row-reverse xxl:justify-around xsm:w-three-hundred xsm:h-three-hundred-sixty-five sm:w-five-hundred-thirty-six sm:h-three-hundred-sixty-five md:w-seven-hundred-twenty-eight md:h-four-hundred-seventy-five lg:w-nine-hundred-fifty-two lg:h-five-hundred-seventy-nine w-nine-hundred-seventy-nine h-three-hundred-sixty-five">
+                <div className="bg-blue-base mx-auto rounded-xl flex flex-col items-center justify-center xl:flex-row-reverse xl:justify-around xxl:flex-row-reverse xxl:justify-around xsm:w-auto xsm:h-three-hundred-sixty-five sm:w-five-hundred-thirty-six sm:h-three-hundred-sixty-five md:w-seven-hundred-twenty-eight md:h-four-hundred-seventy-five lg:w-nine-hundred-fifty-two lg:h-five-hundred-seventy-nine w-nine-hundred-seventy-nine h-three-hundred-sixty-five">
                     <div>
                         <Image src={car} alt="Imagem de carro amarelo" />
                     </div>

@@ -20,6 +20,7 @@ const config: Config = {
         "orange-base":"#F78B00",
         "blue-base":"#00285F",
         "custom-blue-base":"rgba(0, 40, 95, 1)",
+        "gray-base":"rgba(237, 237, 237, 1)",
       },
       width: {
         "seventy": "70px",
@@ -36,6 +37,7 @@ const config: Config = {
       },
       height: {
         "seventy": "70px",
+        "one-hundred-twenty-three": "123px",
         "three-hundred-sixty-five": "365px",
         "four-hundred-seventy-five": "475px",
         "five-hundred-seventy-nine": "579px",
